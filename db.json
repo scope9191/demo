@@ -1,14 +1,130 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+    {
+        "machineID" : "12430012063",
+        "value" : "0",
+        "M0" : "true",
+        "M30" : "false",
+        "alarmID" : "null",
+        "alarmText" : "null",
+        "alarmBeginTimeStamp" : "null",
+        "progName" : "Program 1",
+        "toolNo" : "126",
+        "standort" : "Digital Lab",
+        "repairType" : "",
+        "supervisor" : "Meier",
+        "endTime" : "2021-01-31 23:27:00",
+        "machineName" : "DMU 165U"
+    },
+    {
+        "machineID" : "12430012064",
+        "value" : "1",
+        "M0" : "false",
+        "M30" : "false",
+        "alarmID" : "100",
+        "alarmText" : "Tür offen",
+        "alarmBeginTimeStamp" : "2020-09-22 20:27:00",
+        "progName" : "Program 2",
+        "toolNo" : "127",
+        "standort" : "Digital Lab",
+        "repairType" : "",
+        "supervisor" : "Meier",
+        "endTime" : "2021-01-31 23:27:00",
+        "machineName" : "DMC 125 RPS"
+    },
+    {
+        "machineID" : "12430012065",
+        "value" : "2",
+        "M0" : "false",
+        "M30" : "false",
+        "alarmID" : "400",
+        "alarmText" : "Kühlsystem ausgefallen",
+        "alarmBeginTimeStamp" : "2020-09-22 20:10:00",
+        "progName" : "Program 3",
+        "toolNo" : "128",
+        "standort" : "Digital Lab",
+        "repairType" : "",
+        "supervisor" : "Meier",
+        "endTime" : "2021-01-31 23:27:00",
+        "machineName" : "DMC 125 RPS"
+    },
+    {
+        "machineID" : "12430012066",
+        "value" : "0",
+        "M0" : "false",
+        "M30" : "false",
+        "alarmID" : "null",
+        "alarmText" : "null",
+        "alarmBeginTimeStamp" : "null",
+        "progName" : "Program 4",
+        "toolNo" : "129",
+        "standort" : "Digital Lab",
+        "repairType" : "",
+        "supervisor" : "Meier",
+        "endTime" : "2021-01-31 23:27:00",
+        "machineName" : "Maschine 4"
+    },
+    {
+        "machineID" : "12430012067",
+        "value" : "1",
+        "M0" : "false",
+        "M30" : "false",
+        "alarmID" : "300",
+        "alarmText" : "Werkzeug verschlissen",
+        "alarmBeginTimeStamp" : "2020-06-25 16:25:00",
+        "progName" : "Program 5",
+        "toolNo" : "130",
+        "standort" : "Digital Lab",
+        "repairType" : "",
+        "supervisor" : "Meier",
+        "endTime" : "2021-01-31 23:27:00",
+        "machineName" : "Maschine 5"
+    },
+    {
+        "machineID" : "12430012068",
+        "value" : "2",
+        "M0" : "false",
+        "M30" : "false",
+        "alarmID" : "305",
+        "alarmText" : "Werkzeug kaputt",
+        "alarmBeginTimeStamp" : "2020-06-25 16:24:00",
+        "progName" : "Program 6",
+        "toolNo" : "131",
+        "standort" : "Digital Lab",
+        "repairType" : "",
+        "supervisor" : "Meier",
+        "endTime" : "2021-01-31 23:27:00",
+        "machineName" : "Maschine 6"
+    },
+    {
+        "machineID" : "12430012069",
+        "value" : "1",
+        "M0" : "false",
+        "M30" : "false",
+        "alarmID" : "309",
+        "alarmText" : "Teile gehen bald aus",
+        "alarmBeginTimeStamp" : "2020-06-25 16:23:00",
+        "progName" : "Program 7",
+        "toolNo" : "132",
+        "standort" : "Digital Lab",
+        "repairType" : "",
+        "supervisor" : "Meier",
+        "endTime" : "2021-01-31 23:27:00",
+        "machineName" : "Maschine 7"
+    },
+    {
+        "machineID" : "12430012070",
+        "value" : "10",
+        "M0" : "false",
+        "M30" : "false",
+        "alarmID" : "864",
+        "alarmText" : "Sicherung durchgebrannt",
+        "alarmBeginTimeStamp" : "2020-06-25 16:22:00",
+        "progName" : "Program 8",
+        "toolNo" : "133",
+        "standort" : "Digital Lab",
+        "repairType" : "",
+        "supervisor" : "Meier",
+        "endTime" : "2021-01-31 23:27:00",
+        "machineName" : "Maschine 8"
+    }
+]
